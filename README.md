@@ -1,17 +1,5 @@
 # QA code exercise
 
-## Exercise
-
-We would like you to write end-to-end (E2E) tests for the application using a JavaScript testing framework. Choose a JS platform/framework of your liking (as long as it is free or open source) and automate as many tests as you'd like.
-
-The E2E tests should simulate user interactions and validate the application's UI updates and data processing.
-
-It is important to note you should provide documentation on how to run the tests and any assumptions made during the development of the tests.
-
-### Exercise 2.2
-
-Create a simple report for the automation test that you created and add it to the repo. Please also provide documentation on how to generate the report.
-
 ## Prerequisites
 
 - Node = 16
