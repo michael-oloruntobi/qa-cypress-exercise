@@ -1,7 +1,9 @@
 describe("Add/Edit Member Functionality Test", () => {
-  it("verifies Add Member functionality", () => {
+  beforeEach(() => {
     cy.visit("/");
+  });
 
+  it("verifies Add Member functionality", () => {
     cy.addNewMember().then((generatedName) => {
       cy.validateCreateNewMemberSuccessNotification();
       cy.wait(2000);
@@ -11,7 +13,6 @@ describe("Add/Edit Member Functionality Test", () => {
   });
 
   it("verifies Edit Member functionality", () => {
-    cy.visit("/");
     cy.editMember().then((data) => {
       cy.validateEditMemberNotification();
       cy.wait(2000);
